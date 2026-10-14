@@ -9,8 +9,6 @@ coverage
 */**/.env
 .cache
 packages/example/out
-.env
-.vscode/taskmarks.json
 .turbo
 .vercel
 packages/compositor/target
@@ -43,3 +41,4 @@ packages/cloudrun/container/ensure-browser.mjs
 packages/skills-evals/.runs
 packages/skills-evals/.site
 packages/skills-evals/.playground
+config.bat

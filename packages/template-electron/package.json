@@ -5,9 +5,9 @@
   "main": ".vite/build/main.js",
   "private": true,
   "scripts": {
-    "dev": "electron-forge start",
+    "dev": "node init && electron-forge start",
     "studio": "remotion studio",
-    "build": "electron-forge package",
+    "build": "node init && electron-forge package",
     "package": "electron-forge package",
     "render": "remotion render HelloWorld",
     "upgrade": "remotion upgrade",
